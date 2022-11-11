@@ -1,0 +1,227 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="ruby-3.1.2-p20" />
+      <type value="RUBY_SDK" />
+      <version value="ver.3.1.2p20 ( revision 4491bb740a) p20" />
+      <homePath value="/opt/homebrew/Cellar/ruby/3.1.2_1/bin/ruby" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///opt/homebrew/lib/ruby/site_ruby/3.1.0" type="simple" />
+            <root url="file:///opt/homebrew/lib/ruby/site_ruby/3.1.0/arm64-darwin21" type="simple" />
+            <root url="file:///opt/homebrew/lib/ruby/site_ruby" type="simple" />
+            <root url="file:///opt/homebrew/lib/ruby/vendor_ruby/3.1.0" type="simple" />
+            <root url="file:///opt/homebrew/lib/ruby/vendor_ruby/3.1.0/arm64-darwin21" type="simple" />
+            <root url="file:///opt/homebrew/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file:///opt/homebrew/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0" type="simple" />
+            <root url="file:///opt/homebrew/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/arm64-darwin21" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs31" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="file:///opt/homebrew/lib/ruby/site_ruby/3.1.0" type="simple" />
+            <root url="file:///opt/homebrew/lib/ruby/site_ruby/3.1.0/arm64-darwin21" type="simple" />
+            <root url="file:///opt/homebrew/lib/ruby/site_ruby" type="simple" />
+            <root url="file:///opt/homebrew/lib/ruby/vendor_ruby/3.1.0" type="simple" />
+            <root url="file:///opt/homebrew/lib/ruby/vendor_ruby/3.1.0/arm64-darwin21" type="simple" />
+            <root url="file:///opt/homebrew/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file:///opt/homebrew/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0" type="simple" />
+            <root url="file:///opt/homebrew/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/arm64-darwin21" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs31" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional NORMALIZED_VERSION_STRING="ver.3.1.2p20 ( revision 4491bb740a) p20" version="1" GEMS_BIN_DIR_PATH="/opt/homebrew/lib/ruby/gems/3.1.0/bin">
+        <VERSION_MANAGER ID="system">
+          <custom-configurator>
+            <list />
+          </custom-configurator>
+        </VERSION_MANAGER>
+        <RbConfig>
+          <item key="AR" value="ar" />
+          <item key="ARFLAGS" value="rcu " />
+          <item key="AS" value="as" />
+          <item key="ASMEXT" value="S" />
+          <item key="BUILTIN_TRANSSRCS" value=" enc/trans/newline.c" />
+          <item key="CC" value="clang" />
+          <item key="CCDLFLAGS" value="-fno-common" />
+          <item key="CC_VERSION" value="clang --version" />
+          <item key="CC_VERSION_MESSAGE" value="Apple clang version 13.1.6 (clang-1316.0.21.2.5)&#10;Target: arm64-apple-darwin21.5.0&#10;Thread model: posix&#10;InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin" />
+          <item key="CFLAGS" value="-fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef  -fno-common -pipe" />
+          <item key="CHDIR" value="cd -P" />
+          <item key="CONFIGURE" value="configure" />
+          <item key="COUTFLAG" value="-o " />
+          <item key="CP" value="cp" />
+          <item key="CPP" value="clang -E" />
+          <item key="CPPFLAGS" value=" -I/opt/homebrew/opt/libyaml/include -I/opt/homebrew/opt/openssl@1.1/include -I/opt/homebrew/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  " />
+          <item key="CPPOUTFILE" value="-o conftest.i" />
+          <item key="CROSS_COMPILING" value="no" />
+          <item key="CXX" value="clang++" />
+          <item key="CXXFLAGS" value="-fdeclspec" />
+          <item key="DLDFLAGS" value="-Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib" />
+          <item key="DLDSHARED" value="clang -dynamiclib" />
+          <item key="DLEXT" value="bundle" />
+          <item key="DLNOBJ" value="dln.o" />
+          <item key="ECHO_C" value="\\c" />
+          <item key="EGREP" value="/usr/bin/grep -E" />
+          <item key="ENABLE_SHARED" value="yes" />
+          <item key="EXTOUT" value=".ext" />
+          <item key="GCC" value="yes" />
+          <item key="GIT" value="git" />
+          <item key="GNU_LD" value="no" />
+          <item key="GREP" value="/usr/bin/grep" />
+          <item key="HAVE_GIT" value="yes" />
+          <item key="INSTALL" value="/usr/bin/install -c" />
+          <item key="INSTALL_DATA" value="/usr/bin/install -c -m 644" />
+          <item key="INSTALL_PROGRAM" value="/usr/bin/install -c" />
+          <item key="INSTALL_SCRIPT" value="/usr/bin/install -c" />
+          <item key="INSTALL_STATIC_LIBRARY" value="no" />
+          <item key="LD" value="clang" />
+          <item key="LDFLAGS" value="-L. -fstack-protector-strong -L/opt/homebrew/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib" />
+          <item key="LDSHARED" value="clang -dynamic -bundle" />
+          <item key="LDSHAREDXX" value="clang++ -dynamic -bundle" />
+          <item key="LIBEXT" value="a" />
+          <item key="LIBPATHENV" value="DYLD_FALLBACK_LIBRARY_PATH" />
+          <item key="LIBPATHFLAG" value=" -L%s" />
+          <item key="LIBRUBY" value="libruby.3.1.dylib" />
+          <item key="LIBRUBYARG" value="-lruby.3.1" />
+          <item key="LIBRUBYARG_SHARED" value="-lruby.3.1" />
+          <item key="LIBRUBYARG_STATIC" value="-lruby.3.1-static -framework CoreFoundation -lpthread -ldl -lobjc" />
+          <item key="LIBRUBY_A" value="libruby.3.1-static.a" />
+          <item key="LIBRUBY_ALIASES" value="libruby.dylib" />
+          <item key="LIBRUBY_RELATIVE" value="no" />
+          <item key="LIBRUBY_SO" value="libruby.3.1.dylib" />
+          <item key="LIBRUBY_SONAME" value="libruby.3.1.dylib" />
+          <item key="LINK_SO" value="&#10;dsymutil $@; { test -z '$(RUBY_CODESIGN)' || codesign -s '$(RUBY_CODESIGN)' -f $@; }" />
+          <item key="LN_S" value="ln -s" />
+          <item key="MAINLIBS" value="-lpthread -ldl -lobjc" />
+          <item key="MAJOR" value="3" />
+          <item key="MAKEDIRS" value="mkdir -p" />
+          <item key="MAKEFILES" value="Makefile GNUmakefile" />
+          <item key="MANTYPE" value="doc" />
+          <item key="MINOR" value="1" />
+          <item key="MJIT_CC" value="/usr/bin/clang" />
+          <item key="MJIT_SUPPORT" value="yes" />
+          <item key="MKDIR_P" value="mkdir -p" />
+          <item key="NM" value="nm" />
+          <item key="NULLCMD" value=":" />
+          <item key="OBJCOPY" value=":" />
+          <item key="OBJDUMP" value="objdump" />
+          <item key="OBJEXT" value="o" />
+          <item key="OUTFLAG" value="-o " />
+          <item key="PACKAGE" value="ruby" />
+          <item key="PATCHLEVEL" value="20" />
+          <item key="PATH_SEPARATOR" value=":" />
+          <item key="PKG_CONFIG" value="pkg-config" />
+          <item key="POSTLINK" value="dsymutil $@; { test -z '$(RUBY_CODESIGN)' || codesign -s '$(RUBY_CODESIGN)' -f $@; }" />
+          <item key="PRELOADENV" value="DYLD_INSERT_LIBRARIES" />
+          <item key="PREP" value="miniruby exe/$(PROGRAM)" />
+          <item key="RANLIB" value="ranlib" />
+          <item key="RI_BASE_NAME" value="ri" />
+          <item key="RM" value="rm -f" />
+          <item key="RMALL" value="rm -fr" />
+          <item key="RMDIR" value="rmdir" />
+          <item key="RMDIRS" value="rmdir -p" />
+          <item key="RUBYW_BASE_NAME" value="rubyw" />
+          <item key="RUBY_API_VERSION" value="3.1" />
+          <item key="RUBY_BASE_NAME" value="ruby" />
+          <item key="RUBY_EXEC_PREFIX" value="/opt/homebrew/Cellar/ruby/3.1.2_1" />
+          <item key="RUBY_INSTALL_NAME" value="ruby" />
+          <item key="RUBY_LIB_VERSION_STYLE" value="3&#9;/* full */" />
+          <item key="RUBY_PROGRAM_VERSION" value="3.1.2" />
+          <item key="RUBY_SO_NAME" value="ruby.3.1" />
+          <item key="RUBY_VERSION_NAME" value="ruby-3.1.0" />
+          <item key="SHELL" value="/bin/sh" />
+          <item key="SOEXT" value="dylib" />
+          <item key="SOLIBS" value="-lpthread -ldl -lobjc" />
+          <item key="STRIP" value="strip -A -n" />
+          <item key="SYMBOL_PREFIX" value="_" />
+          <item key="TEENY" value="2" />
+          <item key="TEST_RUNNABLE" value="yes" />
+          <item key="THREAD_MODEL" value="pthread" />
+          <item key="UNICODE_EMOJI_VERSION" value="13.1" />
+          <item key="UNICODE_VERSION" value="13.0.0" />
+          <item key="WERRORFLAG" value="-Werror" />
+          <item key="arch" value="arm64-darwin21" />
+          <item key="archdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/arm64-darwin21" />
+          <item key="archincludedir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/include/arm64-darwin21" />
+          <item key="archlibdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/lib/arm64-darwin21" />
+          <item key="bindir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/bin" />
+          <item key="build" value="aarch64-apple-darwin21.5.0" />
+          <item key="build_cpu" value="aarch64" />
+          <item key="build_os" value="darwin21.5.0" />
+          <item key="build_vendor" value="apple" />
+          <item key="cflags" value="-fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef" />
+          <item key="cleanlibs" value="$(TARGET_SO).dSYM" />
+          <item key="codesign" value="codesign" />
+          <item key="configure_args" value=" '--prefix=/opt/homebrew/Cellar/ruby/3.1.2_1' '--enable-shared' '--disable-silent-rules' '--with-sitedir=/opt/homebrew/lib/ruby/site_ruby' '--with-vendordir=/opt/homebrew/lib/ruby/vendor_ruby' '--with-opt-dir=/opt/homebrew/opt/libyaml:/opt/homebrew/opt/openssl@1.1:/opt/homebrew/opt/readline' '--without-gmp' 'MJIT_CC=/usr/bin/clang' 'CC=clang' 'CXX=clang++'" />
+          <item key="datadir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/share" />
+          <item key="datarootdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/share" />
+          <item key="debugflags" value="-ggdb3" />
+          <item key="docdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/share/doc/ruby" />
+          <item key="dsymutil" value="dsymutil" />
+          <item key="dvidir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/share/doc/ruby" />
+          <item key="exec" value="exec" />
+          <item key="exec_prefix" value="/opt/homebrew/Cellar/ruby/3.1.2_1" />
+          <item key="host" value="arm64-apple-darwin21" />
+          <item key="host_cpu" value="arm64" />
+          <item key="host_os" value="darwin21" />
+          <item key="host_vendor" value="apple" />
+          <item key="htmldir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/share/doc/ruby" />
+          <item key="includedir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/include" />
+          <item key="infodir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/share/info" />
+          <item key="libdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/lib" />
+          <item key="libdirname" value="libdir" />
+          <item key="libexecdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/libexec" />
+          <item key="localedir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/share/locale" />
+          <item key="localstatedir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/var" />
+          <item key="mandir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/share/man" />
+          <item key="oldincludedir" value="/usr/include" />
+          <item key="optflags" value="-O3 -fno-fast-math" />
+          <item key="pdfdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/share/doc/ruby" />
+          <item key="platform" value="arm64-darwin21" />
+          <item key="prefix" value="/opt/homebrew/Cellar/ruby/3.1.2_1" />
+          <item key="psdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/share/doc/ruby" />
+          <item key="ridir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/share/ri" />
+          <item key="ruby_install_name" value="ruby" />
+          <item key="ruby_pc" value="ruby-3.1.pc" />
+          <item key="ruby_version" value="3.1.0" />
+          <item key="rubyarchdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/arm64-darwin21" />
+          <item key="rubyarchhdrdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/include/ruby-3.1.0/arm64-darwin21" />
+          <item key="rubyarchprefix" value="/opt/homebrew/Cellar/ruby/3.1.2_1/lib/ruby/arm64-darwin21" />
+          <item key="rubyhdrdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/include/ruby-3.1.0" />
+          <item key="rubylibdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0" />
+          <item key="rubylibprefix" value="/opt/homebrew/Cellar/ruby/3.1.2_1/lib/ruby" />
+          <item key="rubysitearchprefix" value="/opt/homebrew/Cellar/ruby/3.1.2_1/lib/ruby/arm64-darwin21" />
+          <item key="runstatedir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/var/run" />
+          <item key="sbindir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/sbin" />
+          <item key="setup" value="Setup" />
+          <item key="sharedstatedir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/com" />
+          <item key="sitearch" value="arm64-darwin21" />
+          <item key="sitearchdir" value="/opt/homebrew/lib/ruby/site_ruby/3.1.0/arm64-darwin21" />
+          <item key="sitearchhdrdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/include/ruby-3.1.0/site_ruby/arm64-darwin21" />
+          <item key="sitearchincludedir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/include/arm64-darwin21" />
+          <item key="sitearchlibdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/lib/arm64-darwin21" />
+          <item key="sitedir" value="/opt/homebrew/lib/ruby/site_ruby" />
+          <item key="sitehdrdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/include/ruby-3.1.0/site_ruby" />
+          <item key="sitelibdir" value="/opt/homebrew/lib/ruby/site_ruby/3.1.0" />
+          <item key="strict_warnflags" value="-std=gnu99" />
+          <item key="sysconfdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/etc" />
+          <item key="target" value="arm64-apple-darwin21" />
+          <item key="target_cpu" value="arm64" />
+          <item key="target_os" value="darwin21" />
+          <item key="target_vendor" value="apple" />
+          <item key="topdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/arm64-darwin21" />
+          <item key="vendorarchdir" value="/opt/homebrew/lib/ruby/vendor_ruby/3.1.0/arm64-darwin21" />
+          <item key="vendorarchhdrdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/include/ruby-3.1.0/vendor_ruby/arm64-darwin21" />
+          <item key="vendordir" value="/opt/homebrew/lib/ruby/vendor_ruby" />
+          <item key="vendorhdrdir" value="/opt/homebrew/Cellar/ruby/3.1.2_1/include/ruby-3.1.0/vendor_ruby" />
+          <item key="vendorlibdir" value="/opt/homebrew/lib/ruby/vendor_ruby/3.1.0" />
+          <item key="warnflags" value="-Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef" />
+        </RbConfig>
+      </additional>
+    </jdk>
+  </component>
+</application>
