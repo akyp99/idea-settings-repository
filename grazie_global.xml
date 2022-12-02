@@ -1,0 +1,24 @@
+<application>
+  <component name="GraziConfig">
+    <option name="userDisabledRules">
+      <set>
+        <option value="LanguageTool.EN.SPILLING_ERROR" />
+        <option value="LanguageTool.EN.EN_CONTRACTION_SPELLING" />
+        <option value="LanguageTool.EN.PAPUA_NEW_GUINEA" />
+        <option value="LanguageTool.EN.EN_WORD_COHERENCY" />
+      </set>
+    </option>
+    <option name="checkingContext">
+      <CheckingContext>
+        <option name="isCheckInCommitMessagesEnabled" value="false" />
+        <option name="isCheckInCommentsEnabled" value="false" />
+        <option name="isCheckInDocumentationEnabled" value="false" />
+        <option name="disabledLanguages">
+          <set>
+            <option value="kotlin" />
+          </set>
+        </option>
+      </CheckingContext>
+    </option>
+  </component>
+</application>
