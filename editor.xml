@@ -10,6 +10,15 @@
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc; *.erb" />
   </component>
+  <component name="InlayHintsSettings">
+    <settingsMapElement>
+      <kotlin.kotlin.lambdas.hints>
+        <Settings>
+          <option name="implicitReceiversAndParams" value="false" />
+        </Settings>
+      </kotlin.kotlin.lambdas.hints>
+    </settingsMapElement>
+  </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
