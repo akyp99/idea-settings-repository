@@ -9,8 +9,14 @@
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc; *.erb" />
+    <option name="SHOW_INTENTION_PREVIEW" value="true" />
   </component>
   <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="TypeScript.ts.type.hints" />
+      </set>
+    </option>
     <settingsMapElement>
       <kotlin.kotlin.lambdas.hints>
         <Settings>
