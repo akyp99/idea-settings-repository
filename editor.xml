@@ -1,5 +1,13 @@
 <application>
   <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="inheritors" value="Default" />
+        <entry key="problems" value="Default" />
+        <entry key="references" value="Default" />
+        <entry key="vcs.code.vision" value="Default" />
+      </map>
+    </option>
     <option name="disabledCodeVisionProviderIds">
       <set>
         <option value="vcs.code.vision" />
@@ -12,22 +20,37 @@
     <option name="SHOW_INTENTION_PREVIEW" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="disabledHintProviderIds">
-      <set>
-        <option value="TypeScript.ts.type.hints" />
-      </set>
-    </option>
+    <option name="lastViewedProviderKeyId" value="TypeScript.ts.type.hints" />
     <settingsMapElement>
-      <kotlin.kotlin.lambdas.hints>
+      <JavaScript.js.type.hints>
         <Settings>
-          <option name="implicitReceiversAndParams" value="false" />
+          <option name="showForFunctions" value="true" />
+          <option name="showForShorthandFunctions" value="true" />
+          <option name="showForVariablesAndFields" value="true" />
         </Settings>
-      </kotlin.kotlin.lambdas.hints>
+      </JavaScript.js.type.hints>
       <kotlin.kotlin.references.types.hints>
         <Settings>
           <option name="functionReturnType" value="true" />
         </Settings>
       </kotlin.kotlin.references.types.hints>
+      <TypeScript.ts.type.hints>
+        <Settings>
+          <option name="showForFunctions" value="true" />
+          <option name="showForShorthandFunctions" value="true" />
+          <option name="showForVariablesAndFields" value="true" />
+        </Settings>
+      </TypeScript.ts.type.hints>
+      <JAVA.annotation.hints>
+        <Settings>
+          <option name="showInferred" value="true" />
+        </Settings>
+      </JAVA.annotation.hints>
+      <kotlin.kotlin.lambdas.hints>
+        <Settings>
+          <option name="implicitReceiversAndParams" value="false" />
+        </Settings>
+      </kotlin.kotlin.lambdas.hints>
     </settingsMapElement>
   </component>
   <component name="TodoConfiguration">
